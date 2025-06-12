@@ -1,18 +1,8 @@
-# 🧠 Reinforcement Learning Agents Simulation
+# Reinforcement Learning Agents Simulation
 
 This is a JavaScript-based simulation that uses **Q-learning** and a **genetic algorithm** to evolve agents capable of navigating toward a goal on a canvas.
 
-## 🎮 Demo
-
-- Agents learn to move toward a green goal using simple discrete actions.
-- Q-tables are evolved across generations via crossover and mutation.
-- Each agent optimizes for a reward based on proximity to the goal and reaching it.
-
-<p align="center">
-  <img src="demo.gif" alt="Simulation demo" width="500"/>
-</p>
-
-## 🚀 Features
+## Features
 
 - **Canvas rendering** with directional agents and animated learning.
 - **Reinforcement learning** via tabular Q-learning.
@@ -24,7 +14,7 @@ This is a JavaScript-based simulation that uses **Q-learning** and a **genetic a
   - Reset environment
   - Live generation counter
 
-## 🧠 Agent Behavior
+## Agent Behavior
 
 Each agent can:
 - Move forward
@@ -51,17 +41,7 @@ State is defined by:
 | Discount factor       | 0.9     |
 | Initial energy        | 200     |
 
-## 🛠️ Tech Stack
 
-- HTML5 `<canvas>`
-- Vanilla JavaScript
-- No libraries required
-
-## 🧬 Files
-
-- `index.html`: Basic structure and UI buttons.
-- `main.js`: Contains logic for agent behavior, RL, and GA.
-- `style.css`: (Optional) For minimal UI styling.
 
 ## 📦 Getting Started
 
